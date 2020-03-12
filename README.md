@@ -9,5 +9,5 @@ gsutil mb -c Standard -l us-central1 $BUCKET_NAME
 ```
 gcloud filestore instances create batch-filestore \
 --zone=us-central1-a \
---file-share=name=fileshare,capacity=1 
+--file-share=name=fileshare,capacity=1TB
 ```
